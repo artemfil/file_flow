@@ -1,0 +1,136 @@
+.toolbar_block {
+    display: flex;
+}
+
+.toolbar_icon {
+    align-items: center;
+    justify-content: center;
+}
+
+.toolbar_names {
+    align-items: center;
+    justify-content: center;
+    margin: 5px 30px;
+}
+
+.toolbar_name {
+    font-size: 14px;
+    margin: 0;
+}
+
+.top_text {
+    margin: 30px 10px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.top_name_surname {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.sign_button {
+    margin: 5px;
+}
+
+.top_buttons {}
+
+.chat_files {
+    display: flex;
+    margin: 10px;
+}
+
+.chat_my_files {
+    padding: 10px;
+}
+
+.chat_received_files {
+    padding: 10px;
+}
+
+.upload_button {
+    margin-top: 20px;
+    border: 1px solid #fff;
+    border-radius: 50px;
+    width: 75px;
+    height: 46px;
+    line-height: 46px;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #444;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgb(65 132 144 / 10%), 0 1px 3px rgb(0 0 0 / 8%);
+    cursor: pointer;
+    user-select: none;
+    appearance: none;
+    touch-action: manipulation;
+    vertical-align: top;
+    transition: box-shadow 0.2s;
+}
+
+.upload_button:focus-visible {
+    border: 1px solid #4c51f9;
+    outline: none;
+}
+
+.upload_button:hover {
+    transition: all 0.2s;
+    color: aqua;
+    background-color: rgb(53, 72, 72);
+    transition: all 1s;
+}
+
+.upload_button:active {
+    background-color: #808080;
+}
+
+.upload_button:disabled {
+    background-color: #eee;
+    border-color: #eee;
+    color: #444;
+    cursor: not-allowed;
+}
+
+.chat_progress {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.chat_0 {
+    border: 1px solid #4c51f9;
+    background-color: #40414c;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.chat_file {
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    border: 1px solid #4c51f9;
+    background-color: #2b359c;
+    border-radius: 30px;
+    padding: 10px;
+    color: rgb(196, 152, 152);
+    cursor: pointer;
+    user-select: none;
+    appearance: none;
+    touch-action: manipulation;
+    vertical-align: top;
+    transition: box-shadow 0.2s;
+}
+
+.upload_button {
+    margin: 10px;
+}
+
+.chat_text {
+    color: rgb(196, 152, 152);
+    font-family: «Helvetica Neue», Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.5625;
+    margin-bottom: 15px;
+}
